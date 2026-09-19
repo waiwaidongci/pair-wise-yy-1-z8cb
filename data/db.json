@@ -6,8 +6,11 @@
       "escapementType": "瑞士杠杆式",
       "balanceFrequency": "18000vph",
       "targetDailyRateSeconds": 20,
+      "escapementWearLevel": 2,
+      "pivotClearanceMm": 0.018,
+      "newHairspringFrequency": "18000vph",
       "note": "怀表机芯，走时偏快",
-      "createdAt": "2026-06-16T00:00:00.000Z"
+      "createdAt": "2026-09-19T23:40:05.886Z"
     }
   ],
   "adjustments": [
@@ -18,7 +21,8 @@
       "direction": "慢针方向",
       "amount": "游丝快慢针向慢侧微调0.4格",
       "note": "初次调校，先保守处理",
-      "createdAt": "2026-06-16T00:00:00.000Z"
+      "superseded": false,
+      "createdAt": "2026-09-19T23:40:05.886Z"
     }
   ],
   "retests": [
@@ -26,11 +30,15 @@
       "id": "retest_demo",
       "clockId": "clock_demo",
       "adjustmentId": "adjustment_demo",
-      "testedAt": "2026-06-16T00:00:00.000Z",
+      "maintenanceId": null,
+      "testedAt": "2026-09-19T23:40:05.886Z",
       "dailyRateSeconds": 31,
       "amplitude": 248,
       "qualified": false,
+      "superseded": false,
       "note": "仍偏快，振幅尚可"
     }
-  ]
+  ],
+  "maintenances": [],
+  "hairspringReplacements": []
 }
